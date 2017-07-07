@@ -1,5 +1,7 @@
 # The OSI and TCP/IP Model
 
+## OSI Model
+
 The Open Systems Interconnection or OSI is a model that illustrates the different layers in networking.
 
 The following layers are:
@@ -48,4 +50,17 @@ Presentation layer is responsible for the encryption and decryption of the data 
 ### Application Layer
 
 Application layer is responsible for viewing the information of the data.
+
+## TCP/IP Model
+
+### Network Interface Layer
+
+1. 
+### Transport Layer
+
+### Internet Layer
+
+### Application Layer
+
+
 
