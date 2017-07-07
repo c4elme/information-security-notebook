@@ -43,11 +43,9 @@ Session layer is responsible for establishing sessions for the devices to commun
 
 ### Presentation Layer
 
-Presentation layer is responsible for encryption and decryption of the data transmitted on the network.
+Presentation layer is responsible for the encryption and decryption of the data transmitted on the network.
 
 ### Application Layer
 
 Application layer is responsible for viewing the information of the data.
-
-
 
