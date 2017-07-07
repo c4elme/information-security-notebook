@@ -55,12 +55,23 @@ Application layer is responsible for viewing the information of the data.
 
 ### Network Interface Layer
 
-1. 
-### Transport Layer
+* Physical Layer
+
+* Data Link Layer
 
 ### Internet Layer
 
+* Network Layer
+
+### Transport Layer
+
+* Transport Layer
+
 ### Application Layer
+
+* Session Layer
+* Presentation Layer
+* Applicatio Layer
 
 
 
