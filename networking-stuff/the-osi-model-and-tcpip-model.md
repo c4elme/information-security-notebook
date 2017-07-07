@@ -16,9 +16,24 @@ The following layers are:
 
 ### Physical Layer
 
-In general, physical layer consists of devices that transmits actual bits or the zeros and ones to the network. Physical layer is responsible for the conversion of data to signals.
+In general, physical layer are the devices that can be actually held and measure to transmit signals or bits \(zeroes and ones\) to the network. Physical layer is responsible for the conversion of data to signals.
 
 **Examples:**
+
+* Cables
+* Network Interface Card \(NIC\)
+* Hubs
+* etc.
+
+### Data Link Layer
+
+Data link layer is responsible for packaging the bits/data into frames.
+
+
+
+
+
+
 
 
 
