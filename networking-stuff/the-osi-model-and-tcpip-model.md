@@ -16,9 +16,9 @@ The following layers are:
 
 ### Physical Layer
 
-In general, physical layer consists of devices that transmits actual bits to the network.
+In general, physical layer consists of devices that transmits actual bits or the zeros and ones to the network. Physical layer is responsible for the conversion of data to signals.
 
-
+**Examples:**
 
 
 
