@@ -27,13 +27,27 @@ In general, physical layer are the devices that can be actually held and measure
 
 ### Data Link Layer
 
-Data link layer is responsible for packaging the bits/data into frames.
+Data link layer is responsible for packaging the bits/data into frames. Data link layer transfers data from one point to another. It uses the Address Resolution Protocol to map the IP address of the devices on their mac addresses.
 
+### Network Layer
 
+Network layer is responsible for routing the transmission of data on the network.
 
+### Transport Layer
 
+Transport layer is responsible for ensuring that the data are packaged and it has the necessary headers that contains information on where the data will be transmitted.
 
+### Session Layer
 
+Session layer is responsible for establishing sessions for the devices to communicate with each other.
+
+### Presentation Layer
+
+Presentation layer is responsible for encryption and decryption of the data transmitted on the network.
+
+### Application Layer
+
+Application layer is responsible for viewing the information of the data.
 
 
 
