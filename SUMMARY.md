@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Networking Stuff](chapter1.md)
+* [Networking Stuff](networking-stuff.md)
+  * [The OSI Model and TCP/IP Model](networking-stuff/the-osi-model-and-tcpip-model.md)
 * [Programming Stuff](programming-stuff.md)
 * [Penetration Testing Stuff](penetration-testing-stuff.md)
 * OS Stuff
