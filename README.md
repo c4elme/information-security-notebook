@@ -7,7 +7,7 @@
   * #### The OSI Model and TCP/IP Model
   * #### IP Addresses in Relation to OSI Model
   * #### Different Protocols and their relation to OSI Model
-  * #### Different Acronyms
+  * #### Different Networking Acronyms
 * ### Programming
 * ### Penetration Testing
 * ### Operating Systems
