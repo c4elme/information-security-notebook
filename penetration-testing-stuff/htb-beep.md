@@ -1,8 +1,10 @@
+**Enumeration**
+
+**NMAP scan**
+
 root@kali:/home/kai\# nmap -sS 10.10.10.7
 
-
-
-Starting Nmap 7.50 \( https://nmap.org \) at 2017-07-08 22:17 +08
+Starting Nmap 7.50 \( [https://nmap.org](https://nmap.org) \) at 2017-07-08 22:17 +08
 
 Nmap scan report for 10.10.10.7
 
@@ -37,6 +39,20 @@ PORT      STATE SERVICE
 10000/tcp open  snet-sensor-mgmt
 
 Nmap done: 1 IP address \(1 host up\) scanned in 141.70 seconds
+
+NC Listening to port 25 \(smtp\)
+
+kai@kali:~$ nc 10.10.10.7 25
+
+220 beep.localdomain ESMTP Postfix
+
+VRFY root
+
+252 2.0.0 root
+
+
+
+
 
 
 
