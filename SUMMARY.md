@@ -6,8 +6,9 @@
   * [IP Addresses in Relation to OSI](networking-stuff/apipa.md)
 * [Programming Stuff](programming-stuff.md)
 * [Penetration Testing Stuff](penetration-testing-stuff.md)
-  * [HTB Legacy](penetration-testing-stuff/htb-legacy.md)
+  * Information Gathering and Vulnerability Assessment
   * [HTB Beep](penetration-testing-stuff/htb-beep.md)
+  * [HTB Legacy](penetration-testing-stuff/htb-legacy.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
 * [OS Stuff](os-stuff.md)
 
