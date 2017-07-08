@@ -14,12 +14,10 @@ Tools
   nmap -T4 -A -v -Pn 10.10.10.4
   ```
 
-  * T stands for timing \(from 1 - 5\)
-  * -A stands for All
-  * -v stands for verbose
-  * -vv stands for very verbose \(the difference between them is the output\)
-
-
+  * `T` stands for timing \(from 1 - 5\)
+  * `-A` stands for All
+  * `-v` stands for verbose
+  * `-vv` stands for very verbose \(the difference between them is the output\)
 
 
 
