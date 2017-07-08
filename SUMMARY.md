@@ -7,5 +7,6 @@
 * [Programming Stuff](programming-stuff.md)
 * [Penetration Testing Stuff](penetration-testing-stuff.md)
   * [HTB Legacy](penetration-testing-stuff/htb-legacy.md)
+  * [HTB Beep](penetration-testing-stuff/htb-beep.md)
 * OS Stuff
 
