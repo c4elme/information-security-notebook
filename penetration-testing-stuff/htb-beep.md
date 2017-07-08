@@ -50,25 +50,21 @@ VRFY root
 
 252 2.0.0 root
 
-msf auxiliary\(smb\_version\) &gt; use auxiliary/scanner/smtp/smtp\_enum
+`msf auxiliary(smb_version) > use auxiliary/scanner/smtp/smtp_enum`
 
-msf auxiliary\(smtp\_enum\) &gt; set RHOSTS 10.10.10.7
+`msf auxiliary(smtp_enum) > set RHOSTS 10.10.10.7`
 
-RHOSTS =&gt; 10.10.10.7
+`RHOSTS => 10.10.10.7`
 
-msf auxiliary\(smtp\_enum\) &gt; exploit
+`msf auxiliary(smtp_enum) > exploit`
 
-\[\*\] 10.10.10.7:25         - 10.10.10.7:25 Banner: 220 beep.localdomain ESMTP Postfix
+`[*] 10.10.10.7:25         - 10.10.10.7:25 Banner: 220 beep.localdomain ESMTP Postfix`
 
-\[+\] 10.10.10.7:25         - 10.10.10.7:25 Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www
+`[+] 10.10.10.7:25         - 10.10.10.7:25 Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www`
 
-\[\*\] Scanned 1 of 1 hosts \(100% complete\)
+`[*] Scanned 1 of 1 hosts (100% complete)`
 
-\[\*\] Auxiliary module execution completed
+`[*] Auxiliary module execution completed`
 
-msf auxiliary\(smtp\_enum\) &gt; 
-
-
-
-
+`msf auxiliary(smtp_enum) >`
 
