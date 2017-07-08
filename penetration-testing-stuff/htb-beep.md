@@ -68,3 +68,9 @@
 
 `msf auxiliary(smtp_enum) >`
 
+
+
+Users Found after the SMTP\_ENUM
+
+`Users found: , adm, bin, daemon, fax, ftp, games, gdm, gopher, haldaemon, halt, lp, mail, news, nobody, operator, postgres, postmaster, sshd, sync, uucp, webmaster, www`
+
