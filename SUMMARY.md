@@ -6,5 +6,6 @@
   * [IP Addresses in Relation to OSI](networking-stuff/apipa.md)
 * [Programming Stuff](programming-stuff.md)
 * [Penetration Testing Stuff](penetration-testing-stuff.md)
+  * [HTB Legacy](penetration-testing-stuff/htb-legacy.md)
 * OS Stuff
 
