@@ -4,3 +4,9 @@ msf auxiliary\(smb\_ms17\_010\) &gt; run
 
 \[+\] 10.10.10.4:445        - Host is likely VULNERABLE to MS17-010!  \(Windows 5.1\)
 
+
+
+exploit/windows/smb/ms17\_010\_eternalblue
+
+**Doesn't Work ^**
+
