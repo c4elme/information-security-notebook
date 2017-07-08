@@ -2,53 +2,53 @@
 
 **NMAP scan**
 
-root@kali:/home/kai\# nmap -sS 10.10.10.7
+`root@kali:/home/kai# nmap -sS 10.10.10.7`
 
-Starting Nmap 7.50 \( [https://nmap.org](https://nmap.org) \) at 2017-07-08 22:17 +08
+`Starting Nmap 7.50 ( `[`https://nmap.org`](https://nmap.org)` ) at 2017-07-08 22:17 +08`
 
-Nmap scan report for 10.10.10.7
+`Nmap scan report for 10.10.10.7`
 
-Host is up \(0.40s latency\).
+`Host is up (0.40s latency).`
 
-Not shown: 988 closed ports
+`Not shown: 988 closed ports`
 
-PORT      STATE SERVICE
+`PORT      STATE SERVICE`
 
-22/tcp    open  ssh
+`22/tcp    open  ssh`
 
-25/tcp    open  smtp
+`25/tcp    open  smtp`
 
-80/tcp    open  http
+`80/tcp    open  http`
 
-110/tcp   open  pop3
+`110/tcp   open  pop3`
 
-111/tcp   open  rpcbind
+`111/tcp   open  rpcbind`
 
-143/tcp   open  imap
+`143/tcp   open  imap`
 
-443/tcp   open  https
+`443/tcp   open  https`
 
-993/tcp   open  imaps
+`993/tcp   open  imaps`
 
-995/tcp   open  pop3s
+`995/tcp   open  pop3s`
 
-3306/tcp  open  mysql
+`3306/tcp  open  mysql`
 
-4445/tcp  open  upnotifyp
+`4445/tcp  open  upnotifyp`
 
-10000/tcp open  snet-sensor-mgmt
+`10000/tcp open  snet-sensor-mgmt`
 
-Nmap done: 1 IP address \(1 host up\) scanned in 141.70 seconds
+`Nmap done: 1 IP address (1 host up) scanned in 141.70 seconds`
 
 NC Listening to port 25 \(smtp\)
 
-kai@kali:~$ nc 10.10.10.7 25
+`kai@kali:~$ nc 10.10.10.7 25`
 
-220 beep.localdomain ESMTP Postfix
+`220 beep.localdomain ESMTP Postfix`
 
-VRFY root
+`VRFY root`
 
-252 2.0.0 root
+`252 2.0.0 root`
 
 `msf auxiliary(smb_version) > use auxiliary/scanner/smtp/smtp_enum`
 
