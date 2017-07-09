@@ -10,5 +10,9 @@
   * [HTB Beep](penetration-testing-stuff/htb-beep.md)
   * [HTB Legacy](penetration-testing-stuff/htb-legacy.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
+  * [Hack The Box Writeups](penetration-testing-stuff/hack-the-box-writeups.md)
+    * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
+      * [Enumerating](penetration-testing-stuff/hack-the-box-writeups/beep/enumerating.md)
+    * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
 * [OS Stuff](os-stuff.md)
 
