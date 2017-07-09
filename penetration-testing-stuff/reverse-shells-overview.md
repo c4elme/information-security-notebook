@@ -46,5 +46,14 @@
 
 * Custom Reverse Shell ???
 
+## Reverse WWW Shell
+
+* Attacker configures variables
+  * External system IP address
+  * Port
+  * Time of day to execute
+  * Proxy information needed
+* Attacker must find a way to execute on the internal system
+
 
 
