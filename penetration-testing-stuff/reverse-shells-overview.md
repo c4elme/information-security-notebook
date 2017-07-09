@@ -55,7 +55,9 @@
   * Proxy information needed
 * Attacker must find a way to execute on the internal system
 
-## What covert channels do reverse shells use?
+
+
+
 
 
 
