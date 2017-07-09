@@ -117,7 +117,7 @@ print buf
 
 * gdb ./ovrflw
 * `r python buf.py (enclose python with backticks)`
-* you will see the it crashed on 0xd3adc0d3 
+* you will see the it crashed on 0xd3adc0d3 - you can overwrite the EIP at this address
 
 
 
