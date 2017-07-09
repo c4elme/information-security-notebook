@@ -40,6 +40,11 @@
 
 * Sneakin – Telnet
 
-* 
+* Stunnel – SSL
+
+* Secure Shell - SSH
+
+* Custom Reverse Shell ???
+
 
 
