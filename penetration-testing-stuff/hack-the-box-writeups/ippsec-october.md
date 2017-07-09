@@ -82,7 +82,27 @@ Identify where the buffer overflow occurs
 
 * `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -h #shows usage`
 
-* `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 200`
+* `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 200 #generate unique strings/ pattern that doesn't repeat`
+
+* go to ubuntu
+
+* gdb ./ovrflw
+
+* r &lt;paste generated unique patterns/strings&gt;
+
+* copy the mem address
+
+* go back to kali box
+
+* use pattern\_offset.rb
+
+* pattern\_offset.rb -q &lt;mem address without 0x&gt;
+
+* will output p \[\*\] Exact match at offset 112
+
+  * this means at exactly 112 bytes, you can override EIP here
+
+  * 
 
 
 
