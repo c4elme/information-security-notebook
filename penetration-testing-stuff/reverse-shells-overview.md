@@ -55,9 +55,15 @@
   * Proxy information needed
 * Attacker must find a way to execute on the internal system
 
+## How do you detect reverse shells on your network?
 
-
-
+* Detecting working reverse shells is difficult
+* Scrutinize drop logs on firewall and proxies
+* Tune IDS to alert on traffic that is not expected
+  * email server that starts surfing the web
+  * DNS server that telnets out of the network
+* Host based firewall logs
+* Check server baselines against known good configurations
 
 
 
