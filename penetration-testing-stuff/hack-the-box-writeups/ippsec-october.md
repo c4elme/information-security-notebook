@@ -45,9 +45,12 @@ exploit
 
 * b main
 
-* r
+* r \(run\)
 
-* `r `
+* ``r `python -c 'print "A"*200'```
 
+* c \(continue\)
+
+* 
 
 
