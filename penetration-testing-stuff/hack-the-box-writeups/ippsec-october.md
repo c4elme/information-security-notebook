@@ -19,6 +19,8 @@ search vulnerabilities based on the version of the system
 exploit
 
 * upload the reverse-shell script
+* when accessed the shell
+  * find / -perm -4000 2&gt;/dev/null
 
 
 
