@@ -31,11 +31,12 @@ exploit
   * check for md5
 
 * python -m SimpleHTTPServer
+
 * Run ubuntu with the same version of the target
   * wget 172.16.10.105:8000/ovrflw
   * mv ovrflw Desktop
   * chmod +x ovrflw
-  * ``./ovrflw `python -c 'print "A"*200'` ``
+  * ``./ovrflw `python -c 'print "A"*200'` #this will trigger a segmentation fault because of buffer overflow``
   * 
 * 
 
