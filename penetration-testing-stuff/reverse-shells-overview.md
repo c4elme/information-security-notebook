@@ -38,5 +38,7 @@
 
 * DNS Tunnel – DNS
 
+* Sneakin – Telnet
+
 
 
