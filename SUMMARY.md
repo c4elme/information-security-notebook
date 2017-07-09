@@ -19,4 +19,5 @@
   * [Windows](os-stuff/windows.md)
   * [Linux](os-stuff/linux.md)
     * [Helpful Commands](os-stuff/linux/helpful-commands.md)
+* [References](references.md)
 
