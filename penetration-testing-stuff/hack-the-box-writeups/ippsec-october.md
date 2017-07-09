@@ -18,7 +18,7 @@ search vulnerabilities based on the version of the system
 
 exploit
 
-
+* upload the reverse-shell script
 
 
 
