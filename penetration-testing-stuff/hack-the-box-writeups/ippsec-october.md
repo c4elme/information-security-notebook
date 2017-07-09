@@ -39,7 +39,13 @@ exploit
   * chmod +x ovrflw
   * ``./ovrflw `python -c 'print "A"*200'` #this will trigger a segmentation fault because of buffer overflow``
 
-* cat ~/.gdbinit \(this will check if you have source ~/peda/peda.py\)
+* `cat ~/.gdbinit` \(this will check if you have `source ~/peda/peda.py`\)
+
+* gdb ./ovrflw
+
+* b main
+
+* r
 
 
 
