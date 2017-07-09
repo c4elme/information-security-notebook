@@ -14,5 +14,11 @@ search vulnerabilities based on the version of the system
 
 * try to access the README.md to see the changelogs
 
+* remove the unnecessary files
+
+exploit
+
+
+
 
 
