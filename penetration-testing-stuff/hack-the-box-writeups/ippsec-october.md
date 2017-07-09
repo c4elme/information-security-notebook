@@ -62,6 +62,7 @@ exploit
 * stty raw -echo
 
 * nc -lvnp 888
+
 * cd /usr/local/bin
 * ldd ovrflw \|grep libc
 
@@ -71,7 +72,8 @@ Check if the ASLR is enabled in the HOST \(VM\)
 
 Disable ASLR
 
-* `echo 0 > /proc/sys/kernel/randomize(underscore)va_space`
+* `echo 0 > /proc/sys/kernel/randomize(underscore)va_space #root`
+* `ldd ovrflw |grep libc`
 
 
 
