@@ -27,5 +27,7 @@
   * [Social Engineering Attacks](security-stuff/social-engineering-attacks.md)
   * [Types of Wireless Attacks](security-stuff/types-of-wireless-attacks.md)
   * [Application Attacks](security-stuff/application-attacks.md)
+* [Web Development](web-development.md)
+  * [Laravel](web-development/laravel.md)
 * [References](references.md)
 
