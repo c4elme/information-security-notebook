@@ -57,11 +57,10 @@ exploit
 
 * checksec
 
-Alternative
-
 * nc -lvnp 888 \(port set on the reverse shell script\)
 * stty raw -echo
 * nc -lvnp 888
+* cd /usr/local/bin
 * ldd ovrflw \|grep libc
 
 
