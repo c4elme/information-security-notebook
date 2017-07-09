@@ -20,7 +20,8 @@ exploit
 
 * upload the reverse-shell script
 * when accessed the shell
-  * find / -perm -4000 2&gt;/dev/null
+  * find / -perm -4000 2&gt;/dev/null \(search set-uid files\)
+  * 
 
 
 
