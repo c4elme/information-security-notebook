@@ -32,5 +32,11 @@
 
 * Cryptcat - any TCP/UDP port with encryption
 
+* Loki & Ping Tunnel - ICMP
+
+* Reverse WWW Shell – HTTP
+
+* DNS Tunnel – DNS
+
 
 
