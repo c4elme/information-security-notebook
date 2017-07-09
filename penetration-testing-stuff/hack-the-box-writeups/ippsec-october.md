@@ -33,11 +33,13 @@ exploit
 * python -m SimpleHTTPServer
 
 * Run ubuntu with the same version of the target
+
   * wget 172.16.10.105:8000/ovrflw
   * mv ovrflw Desktop
   * chmod +x ovrflw
   * ``./ovrflw `python -c 'print "A"*200'` #this will trigger a segmentation fault because of buffer overflow``
-  * 
-* 
+
+* cat ~/.gdbinit \(this will check if you have source ~/peda/peda.py\)
+
 
 
