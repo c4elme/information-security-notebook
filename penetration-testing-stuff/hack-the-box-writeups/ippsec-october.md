@@ -80,8 +80,9 @@ Identify where the buffer overflow occurs
 
 * locate pattern\_
 
-* /usr/share/metasploit-framework/tools/exploit/pattern\_create.rb -h \#shows usage
+* `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -h #shows usage`
 
-* 
+* `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 200`
+
 
 
