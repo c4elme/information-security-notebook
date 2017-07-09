@@ -25,5 +25,7 @@
   * [Types of Malwares](security-stuff/types-of-malwares.md)
   * [Types of Attacks](security-stuff/types-of-attacks.md)
   * [Social Engineering Attacks](security-stuff/social-engineering-attacks.md)
+  * [Types of Wireless Attacks](security-stuff/types-of-wireless-attacks.md)
+  * [Application Attacks](security-stuff/application-attacks.md)
 * [References](references.md)
 
