@@ -78,6 +78,10 @@ Disable ASLR
 
 Identify where the buffer overflow occurs
 
+* locate pattern\_
+
+* /usr/share/metasploit-framework/tools/exploit/pattern\_create.rb -h \#shows usage
+
 * 
 
 
