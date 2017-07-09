@@ -21,5 +21,8 @@
   * [Windows](os-stuff/windows.md)
   * [Linux](os-stuff/linux.md)
     * [Helpful Commands](os-stuff/linux/helpful-commands.md)
+* [Security Stuff](security-stuff.md)
+  * [Types of Malwares](security-stuff/types-of-malwares.md)
+  * [Types of Attacks](security-stuff/types-of-attacks.md)
 * [References](references.md)
 
