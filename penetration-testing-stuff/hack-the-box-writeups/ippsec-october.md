@@ -58,10 +58,12 @@ exploit
 * checksec
 
 * nc -lvnp 888 \(port set on the reverse shell script\)
+
 * stty raw -echo
 * nc -lvnp 888
 * cd /usr/local/bin
 * ldd ovrflw \|grep libc
+* Check if the ASLR is enabled in the HOST \(VM\)
 
 
 
