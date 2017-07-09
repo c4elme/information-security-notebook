@@ -13,6 +13,7 @@
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
       * Enumerating
       * [Exploiting](penetration-testing-stuff/hack-the-box-writeups/legacy/exploiting.md)
+    * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
   * [Reverse Shells Overview](penetration-testing-stuff/reverse-shells-overview.md)
 * [OS Stuff](os-stuff.md)
