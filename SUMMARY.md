@@ -14,5 +14,7 @@
     * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
       * [Enumerating](penetration-testing-stuff/hack-the-box-writeups/beep/enumerating.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
+      * Enumerating
+      * [Exploiting](penetration-testing-stuff/hack-the-box-writeups/legacy/exploiting.md)
 * [OS Stuff](os-stuff.md)
 
