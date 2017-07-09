@@ -43,11 +43,11 @@ exploit
 
 * gdb ./ovrflw
 
-* b main
+* b main \(breakpoint on main\)
 
 * r \(run\)
 
-* ``r `python -c 'print "A"*200'```
+* ```r``python -c 'print "A"\*200'\`\`\`
 
 * c \(continue\)
 
