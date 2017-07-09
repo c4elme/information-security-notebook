@@ -23,5 +23,8 @@ exploit
   * find / -perm -4000 2&gt;/dev/null \(search set-uid files\)
   * 
 
+* get files from the remote server
+  * nc -l -p 999 &gt; ovrflw
+
 
 
