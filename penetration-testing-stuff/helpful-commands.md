@@ -1,8 +1,7 @@
-`searchploit`
+* searchsploit
+* nmap -sV -sC &lt;host address&gt;
 
-```
-nmap -sV -sC <host>
-```
+
 
 
 
