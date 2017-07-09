@@ -116,7 +116,7 @@ print buf
 ```
 
 * gdb ./ovrflw
-* ``r `python buf.py```
+*  r \```python buf.py```
 * 
 
 
