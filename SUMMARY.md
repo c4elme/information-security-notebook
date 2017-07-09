@@ -11,7 +11,7 @@
     * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
       * [Enumerating](penetration-testing-stuff/hack-the-box-writeups/beep/enumerating.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
-      * Enumerating
+      * [Enumerating](penetration-testing-stuff/hack-the-box-writeups/legacy/enumerating.md)
       * [Exploiting](penetration-testing-stuff/hack-the-box-writeups/legacy/exploiting.md)
     * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
