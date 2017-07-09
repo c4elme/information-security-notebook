@@ -11,9 +11,8 @@ search vulnerabilities based on the version of the system
 * find the files that have been updated
 
 * compare their hashes
-* try to access the README.md to see the changelo
 
-
+* try to access the README.md to see the changelogs
 
 
 
