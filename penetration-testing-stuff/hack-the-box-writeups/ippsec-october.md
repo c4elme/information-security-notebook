@@ -102,7 +102,8 @@ Identify where the buffer overflow occurs
 
   * this means at exactly 112 bytes, you can override EIP here
 
-  * 
+* go to ubuntu to write the buffer overflow script
 
+* 
 
 
