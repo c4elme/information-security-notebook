@@ -44,6 +44,8 @@ filemanipulatuionmethods
 
 `#Sample Codes`
 
+
+
 `#if`
 
 `if 10 > 20`
@@ -51,6 +53,8 @@ filemanipulatuionmethods
 `#prints false`
 
 `end`
+
+
 
 `#ifelsif`
 
@@ -64,91 +68,103 @@ filemanipulatuionmethods
 
 `end`
 
-if 10 &gt; 20
 
-\#prints false
 
-else
+`if 10 > 20`
 
-\#10 will be never be greater than 20
+`#prints false`
 
-end
+`else`
 
-\#for
+`#10 will be never be greater than 20`
 
-for number in 1..10
+`end`
 
-puts number \#will print 1 - 10
 
-end
 
-\#while
+`#for`
 
-while true
+`for number in 1..10`
 
-puts "infinite loop"
+`puts number #will print 1 - 10`
 
-end
+`end`
 
-\#Sample Code
 
-\#This will change all the letter 's' to "th"
 
-print "Thtring,pleathe!: "
+`#while`
 
-user\_input = gets.chomp
+`while true`
 
-user\_input.downcase!
+`puts "infinite loop"`
 
-if user\_input.include? "s"
+`end`
 
-user\_input.gsub!\(/s/, "th"\)
 
-else
 
-puts "Nothing to do here!"
+`#Sample Code`
 
-end
+`#This will change all the letter 's' to "th"`
 
-puts "Your string is: \#{user\_input}"
+`print "Thtring,pleathe!: "`
+
+`user_input = gets.chomp`
+
+`user_input.downcase!`
+
+`if user_input.include? "s"`
+
+`user_input.gsub!(/s/, "th")`
+
+`else`
+
+`puts "Nothing to do here!"`
+
+`end`
+
+`puts "Your string is: #{user_input}"`
+
+
 
 == CODE BLOCKS ==
 
-\# The block, {\|i\| putsi}, is passed the current
+`# The block, {|i| putsi}, is passed the current`
 
-\# array item each time it is evaluated. This block
+`# array item each time it is evaluated. This block`
 
-\# prints the item.
+`# prints the item.`
 
-\[1, 2, 3, 4, 5\].each { \|i\| putsi}
+`[1, 2, 3, 4, 5].each { |i| putsi}`
 
-\# This block prints the number 5 for each item.
+`# This block prints the number 5 for each item.`
 
-\# \(It chooses to ignore the passed item, which is allowed.\)
+`# (It chooses to ignore the passed item, which is allowed.)`
 
-\[1, 2, 3, 4, 5\].each { \|i\| putsi\*5 }
+`[1, 2, 3, 4, 5].each { |i| putsi*5 }`
 
 == SORTING ==
 
 Method/s
 
-.sort
+`.sort`
 
-.reverse
+`.reverse`
 
 Example of Sorting
 
-\#will sort fruits to descending order
+`#will sort fruits to descending order`
 
-fruits = \["orange", "apple", "banana", "pear", "grapes"\]
+`fruits = ["orange", "apple", "banana", "pear", "grapes"]`
 
-fruits.sort! do \|firstFruit,secondFruit\|
+`fruits.sort! do |firstFruit,secondFruit|`
 
-secondFruit&lt;=&gt;firstFruit
+`secondFruit<=>firstFruit`
 
-end
+`end`
 
-def alphabetize\(arr, rev=false\)
+
+
+`def alphabetize(arr, rev=false)`
 
 ```
 arr.sort!
@@ -164,11 +180,15 @@ else
 end
 ```
 
-end
+`end`
 
-numbers = \[7,5,8,6,4,1,3,2\]
 
-puts alphabetize\(numbers\)
+
+`numbers = [7,5,8,6,4,1,3,2]`
+
+`puts alphabetize(numbers)`
+
+
 
 == The Combined Comparison Operator ==
 
@@ -182,15 +202,15 @@ The combined comparison operator to compare two Ruby objects. \(&lt;=&gt;\)
 
 == Iterators ==
 
-.each
+`.each`
 
-\#each
+`#each`
 
-\(1..10\).each do \|count\|
+`(1..10).each do |count|`
 
-puts count
+`puts count`
 
-End
+`End`
 
 times {\|i\| block }→self
 
