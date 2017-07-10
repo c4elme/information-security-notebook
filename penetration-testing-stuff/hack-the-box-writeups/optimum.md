@@ -116,7 +116,5 @@ wmic qfe get Caption,Description,HotFixID,InstalledOn #to see the security updat
 
 ### Privilege Escalation
 
-
-
-
+\(WIP\)
 
