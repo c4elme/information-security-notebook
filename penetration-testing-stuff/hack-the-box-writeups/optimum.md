@@ -1,4 +1,4 @@
-## Writeup
+## Write up
 
 Started with the nmap scan to see the open ports.
 
