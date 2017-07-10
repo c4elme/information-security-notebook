@@ -100,5 +100,5 @@ msf exploit(rejetto_hfs_exec) > exploit
 ...
 ```
 
-
+After running the exploit, I am able to access the shell with meterpreter.
 
