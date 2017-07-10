@@ -50,5 +50,15 @@ Matching Modules
    exploit/windows/http/rejetto_hfs_exec       2014-09-11       excellent  Rejetto HttpFileServer Remote Command Execution
 ```
 
+Here, we can see already the available exploit for the HttpFileServer \(HFS\).
+
+I used the `exploit/windows/http/rejetto_hfs_exec`as the exploit.
+
+```
+msf > use exploit/windows/http/rejetto_hfs_exec
+```
+
+
+
 
 
