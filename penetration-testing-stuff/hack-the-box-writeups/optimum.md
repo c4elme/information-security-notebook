@@ -20,7 +20,7 @@ This is the content of the nmap.nmap file
 
 `PORT   STATE SERVICE VERSION`
 
-**`80/tcp open  http    HttpFileServer httpd 2.3`**
+`80/tcp open  http    HttpFileServer httpd 2.3`
 
 `|_http-server-header: HFS 2.3`
 
@@ -32,10 +32,10 @@ This is the content of the nmap.nmap file
 
 `# Nmap done at Mon Jul 10 21:14:33 2017 -- 1 IP address (1 host up) scanned in 67.96 seconds`
 
-The port 80 is open and it uses HttpFileServer httpd 2.3. I opened the msfconsole \(metasploit\) to search and see the available exploits for the current version of HttpFileServer \(HFS\).
+The port 80 is open and it uses HttpFileServer httpd 2.3. I opened the msfconsole \(metasploit\) to search and see the available exploits for the current version of HttpFileServer \(HFS\). I used the search command as shown below.
 
 ```
-search hfs
+msf > search hfs
 ```
 
 And it shows the matching modules.
