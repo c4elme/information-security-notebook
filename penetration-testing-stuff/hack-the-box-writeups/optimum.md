@@ -109,7 +109,7 @@ Commands that I used to enumerate.
 ```
 meterpreter> sysinfo #to see the information of the system
 
-meterpreter> shell #to access the shell
+meterpreter> shell #to access the shell and find the user.txt which is located on C:\Users\kostas\Desktop
 
 wmic qfe get Caption,Description,HotFixID,InstalledOn #to see the security updates of the OS
 ```
