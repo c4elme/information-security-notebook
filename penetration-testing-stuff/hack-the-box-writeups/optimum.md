@@ -102,3 +102,19 @@ msf exploit(rejetto_hfs_exec) > exploit
 
 After running the exploit, I am able to access the shell with meterpreter.
 
+**Enumeration**
+
+Commands that i used to enumerate.
+
+```
+meterpreter> sysinfo
+
+wmic qfe get Caption,Description,HotFixID,InstalledOn # to see the security updates of the OS
+
+
+```
+
+
+
+
+
