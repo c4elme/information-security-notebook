@@ -20,7 +20,7 @@ This is the content of the nmap.nmap file
 
 `PORT   STATE SERVICE VERSION`
 
-`80/tcp open  http    HttpFileServer httpd 2.3`
+**`80/tcp open  http    HttpFileServer httpd 2.3`**
 
 `|_http-server-header: HFS 2.3`
 
