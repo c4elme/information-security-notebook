@@ -102,7 +102,7 @@ msf exploit(rejetto_hfs_exec) > exploit
 
 After running the exploit, I am able to access the shell with meterpreter.
 
-**Enumeration and finding the user.txt**
+### **Enumeration and finding the user.txt**
 
 Commands that I used to enumerate.
 
@@ -113,6 +113,10 @@ meterpreter> shell #to access the shell and find the user.txt which is located o
 
 wmic qfe get Caption,Description,HotFixID,InstalledOn #to see the security updates of the OS
 ```
+
+### Privilege Escalation
+
+
 
 
 
