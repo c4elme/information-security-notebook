@@ -1,14 +1,14 @@
 ## Write up
 
-Started with the nmap scan to see the open ports.
+I started with the nmap scan to see the open ports.
 
 ```
 nmap -sV -sC -oA nmap 10.10.10.8
 ```
 
-Generated 3 nmap output files
+Generated 3 nmap output files and opened the nmap.nmap file.
 
-Opened the nmap.nmap file, this is the content of the file
+This is the content of the nmap.nmap file
 
 `# Nmap 7.50 scan initiated Mon Jul 10 21:13:26 2017 as: nmap -sV -sC -oA nmap 10.10.10.8`
 
