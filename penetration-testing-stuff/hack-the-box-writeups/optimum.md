@@ -1,4 +1,4 @@
-## Scanning
+## Writeup
 
 Started with the nmap scan to see the open ports.
 
@@ -32,8 +32,6 @@ Opened the nmap.nmap file, this is the content of the file
 
 `# Nmap done at Mon Jul 10 21:14:33 2017 -- 1 IP address (1 host up) scanned in 67.96 seconds`
 
-
-
 The port 80 is open and it uses HttpFileServer httpd 2.3. I opened the msfconsole \(metasploit\) to search and see the available exploits for the current version of HttpFileServer \(HFS\).
 
 ```
@@ -50,12 +48,7 @@ Matching Modules
    ----                                        ---------------  ----       -----------
    exploit/multi/http/git_client_command_exec  2014-12-18       excellent  Malicious Git and Mercurial HTTP Server For CVE-2014-9390
    exploit/windows/http/rejetto_hfs_exec       2014-09-11       excellent  Rejetto HttpFileServer Remote Command Execution
-
 ```
-
-
-
-
 
 
 
