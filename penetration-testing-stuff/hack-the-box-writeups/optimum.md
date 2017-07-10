@@ -116,5 +116,17 @@ wmic qfe get Caption,Description,HotFixID,InstalledOn #to see the security updat
 
 ### Privilege Escalation
 
+Used commands
+
+```
+background
+
+sessions -l
+
+sessions -i <session #>
+
+
+```
+
 \(WIP\)
 
