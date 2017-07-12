@@ -1,7 +1,5 @@
 # Overview of the Content
 
-**This book includes topics that I noted for future references.**
-
 * ### Networking
 
   * #### The OSI Model and TCP/IP Model
@@ -11,6 +9,8 @@
 * ### Programming
 * ### Penetration Testing
 * ### Operating Systems
+* ### Security
+* ### Web Development
 
 
 

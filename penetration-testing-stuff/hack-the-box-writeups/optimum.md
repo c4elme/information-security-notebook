@@ -10,6 +10,8 @@ Generated 3 nmap output files and opened the nmap.nmap file.
 
 This is the content of the nmap.nmap file
 
+
+
 `# Nmap 7.50 scan initiated Mon Jul 10 21:13:26 2017 as: nmap -sV -sC -oA nmap 10.10.10.8`
 
 `Nmap scan report for 10.10.10.8`
@@ -31,6 +33,8 @@ This is the content of the nmap.nmap file
 `Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .`
 
 `# Nmap done at Mon Jul 10 21:14:33 2017 -- 1 IP address (1 host up) scanned in 67.96 seconds`
+
+
 
 The port 80 is open and it uses HttpFileServer httpd 2.3. I opened the msfconsole \(metasploit\) to search and see the available exploits for the current version of HttpFileServer \(HFS\). I used the search command as shown below.
 
@@ -109,7 +113,7 @@ Commands that I used to enumerate.
 ```
 meterpreter> sysinfo #to see the information of the system
 
-meterpreter> shell #to access the shell and find the user.txt which is located on C:\Users\kostas\Desktop
+meterpreter> shell #to access the shell/cmd of the target and find the user.txt which is located on C:\Users\kostas\Desktop
 
 wmic qfe get Caption,Description,HotFixID,InstalledOn #to see the security updates of the OS
 ```
@@ -124,8 +128,6 @@ background
 sessions -l
 
 sessions -i <session #>
-
-
 ```
 
 \(WIP\)
