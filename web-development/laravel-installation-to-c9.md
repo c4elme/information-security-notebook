@@ -57,9 +57,9 @@
 
 6. If problem persists, just use another development server lol or use homestead instead
 
-7. or just follow the steps here https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838
+7. composer install - important if the repo is cloned
 
-
+8. or just follow the steps here [https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838](https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838)
 
 
 
