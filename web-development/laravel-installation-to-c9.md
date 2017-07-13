@@ -55,7 +55,7 @@
       sudo a2enmod php5.6
       ```
 
-6. If problem persists, just use another development server lol
+6. If problem persists, just use another development server lol or use homestead instead
 
 
 
