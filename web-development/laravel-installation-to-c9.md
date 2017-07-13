@@ -57,5 +57,9 @@
 
 6. If problem persists, just use another development server lol or use homestead instead
 
+7. or just follow the steps here https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838
+
+
+
 
 
