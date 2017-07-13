@@ -41,7 +41,7 @@
 
 4. Now run the composer install command to install the dependencies of the laravel application
 
-5. If problems occured, make sure that the php5.6 is enabled
+5. If problems occured, make sure that the php5.6 is enabled, run the following commands
 
    1. ```
       sudo add-apt-repository ppa:ondrej/php
@@ -51,7 +51,8 @@
       ```
 
       ```
-
+      sudo a2dismod php5
+      sudo a2enmod php5.6
       ```
 
 
