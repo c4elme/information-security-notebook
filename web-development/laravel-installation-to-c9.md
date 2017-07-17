@@ -59,7 +59,7 @@
 
 7. composer install - important if the repo is cloned
 
-8. https://github.com/laravel/framework/issues/9080
+8. [https://github.com/laravel/framework/issues/9080](https://github.com/laravel/framework/issues/9080)
 
 9. or just follow the steps here [https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838](https://community.c9.io/t/guide-to-laravel-5-4-workspace-installation/13838)
 
