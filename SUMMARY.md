@@ -20,6 +20,7 @@
     * [Helpful Commands](os-stuff/windows/helpful-commands.md)
   * [Linux](os-stuff/linux.md)
     * [Helpful Commands](os-stuff/linux/helpful-commands.md)
+    * [Troubleshooting](os-stuff/linux/troubleshooting.md)
 * [Security](security.md)
   * [Types of Malwares](security-stuff/types-of-malwares.md)
   * [Types of Attacks](security-stuff/types-of-attacks.md)
