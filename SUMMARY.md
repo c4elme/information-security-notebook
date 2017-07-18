@@ -10,6 +10,9 @@
   * [Information Gathering and Vulnerability Assessment](penetration-testing-stuff/information-gathering-and-vulnerability-assessment.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
   * [Reverse Shells Overview](penetration-testing-stuff/reverse-shells-overview.md)
+  * [Privilege Escalation](penetration-testing-stuff/privilege-escalation.md)
+    * Linux
+    * [Windows](penetration-testing-stuff/privilege-escalation/windows.md)
   * [Hack The Box Writeups](penetration-testing-stuff/hack-the-box-writeups.md)
     * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
