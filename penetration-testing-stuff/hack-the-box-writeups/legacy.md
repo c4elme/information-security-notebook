@@ -25,14 +25,14 @@ Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
 |    Nbtstat Information for 10.10.10.4    |
  ========================================== 
 Looking up status of 10.10.10.4
-	LEGACY          <00> -         B <ACTIVE>  Workstation Service
-	HTB             <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
-	LEGACY          <20> -         B <ACTIVE>  File Server Service
-	HTB             <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
-	HTB             <1d> -         B <ACTIVE>  Master Browser
-	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+    LEGACY          <00> -         B <ACTIVE>  Workstation Service
+    HTB             <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+    LEGACY          <20> -         B <ACTIVE>  File Server Service
+    HTB             <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+    HTB             <1d> -         B <ACTIVE>  Master Browser
+    ..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
 
-	MAC Address = 00-50-56-97-0E-E1
+    MAC Address = 00-50-56-97-0E-E1
 
  =================================== 
 |    Session Check on 10.10.10.4    |
@@ -111,7 +111,6 @@ error: NT_STATUS_ACCESS_DENIED
 
 
 enum4linux complete on Tue Jul 18 22:42:49 2017
-
 ```
 
 ### Exploitation
