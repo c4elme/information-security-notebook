@@ -1,9 +1,7 @@
 Steps
 
 * nmap scan
-* oswhpscan --
-
-
-
+* wpscan --url &lt;host&gt; --log
+* 
 
 
