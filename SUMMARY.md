@@ -18,6 +18,7 @@
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
     * [Optimum](penetration-testing-stuff/hack-the-box-writeups/optimum.md)
     * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
+    * [Ippsec Tenten](penetration-testing-stuff/hack-the-box-writeups/ippsec-tenten.md)
 * [Operating Systems](os.md)
   * [Windows](os-stuff/windows.md)
     * [Helpful Commands](os-stuff/windows/helpful-commands.md)

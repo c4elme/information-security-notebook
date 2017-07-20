@@ -1,0 +1,9 @@
+Steps
+
+* nmap scan
+* oswhpscan --
+
+
+
+
+
