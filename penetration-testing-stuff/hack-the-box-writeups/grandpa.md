@@ -21,7 +21,6 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Fri Jul 21 04:42:16 2017 -- 1 IP address (1 host up) scanned in 50.31 seconds
-
 ```
 
 I searched for some exploits in webdav and found one.
@@ -32,7 +31,7 @@ exploit/windows/iis/iis_webdav_scstoragepathfromurl       2017-03-26       manua
 
 That exploit can be used to have a meterpreter session.
 
-After I got a session it turns out that the machine privileges has the Token privs something by running the **getprivs** command. So I searched for the token kidnapping exploit and it was available in exploit-db site: https://www.exploit-db.com/exploits/6705/
+After I got a session it turns out that the machine privileges has the Token privs something by running the **getprivs** command. So I searched for the token kidnapping exploit and it was available in exploit-db site: [https://www.exploit-db.com/exploits/6705/](https://www.exploit-db.com/exploits/6705/)
 
 I uploaded the exe file \(churrasco.exe\) and executed it on the command prompt of the vulnerable machine and it turns out that I had an Administrator privilege on the machine.
 
@@ -41,4 +40,10 @@ I uploaded the exe file \(churrasco.exe\) and executed it on the command prompt 
 ```
 
 The command means  that the churrasco.exe will run the given command which is the "cmd.exe".
+
+
+
+# Can be used on HTB/Granny
+
+
 
