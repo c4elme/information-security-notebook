@@ -1,6 +1,4 @@
-## Information Gathering
+Information Gathering
 
-  nmap scan
-
-
+nmap scan
 
