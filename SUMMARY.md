@@ -11,10 +11,11 @@
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
   * [Reverse Shells Overview](penetration-testing-stuff/reverse-shells-overview.md)
   * [Privilege Escalation](penetration-testing-stuff/privilege-escalation.md)
-    * Linux
+    * [Linux](penetration-testing-stuff/privilege-escalation/linux.md)
     * [Windows](penetration-testing-stuff/privilege-escalation/windows.md)
   * [Hack The Box Writeups](penetration-testing-stuff/hack-the-box-writeups.md)
     * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
+    * [Devel](penetration-testing-stuff/hack-the-box-writeups/devel.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
     * [Optimum](penetration-testing-stuff/hack-the-box-writeups/optimum.md)
     * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
