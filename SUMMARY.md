@@ -16,6 +16,7 @@
   * [Hack The Box Writeups](penetration-testing-stuff/hack-the-box-writeups.md)
     * [Beep](penetration-testing-stuff/hack-the-box-writeups/beep.md)
     * [Devel](penetration-testing-stuff/hack-the-box-writeups/devel.md)
+    * [Grandpa](penetration-testing-stuff/hack-the-box-writeups/grandpa.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
     * [Optimum](penetration-testing-stuff/hack-the-box-writeups/optimum.md)
     * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
