@@ -10,6 +10,8 @@
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
     * [Ippsec October](penetration-testing-stuff/hack-the-box-writeups/ippsec-october.md)
     * [Ippsec Tenten](penetration-testing-stuff/hack-the-box-writeups/ippsec-tenten.md)
+  * [Vulnhubs writeup](penetration-testing-stuff/vulnhubs-writeup.md)
+    * [tr0ll](penetration-testing-stuff/vulnhubs-writeup/tr0ll.md)
   * [Information Gathering and Vulnerability Assessment](penetration-testing-stuff/information-gathering-and-vulnerability-assessment.md)
   * [Reverse Shells Overview](penetration-testing-stuff/reverse-shells-overview.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
