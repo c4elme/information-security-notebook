@@ -31,7 +31,7 @@ There are 3 open ports in tr0ll vm
 * port 22
 * port 80
 
-Since the port 80 is open, I have an idea now that the vlunerable machine has a web server running. So I opened my web browser and visit the IP address of the machine.
+Since the port 80 is open, I have an idea now that the vulnerable machine has a web server running. So I opened my web browser and visit the IP address of the machine.
 
 ![](/assets/Screenshot from 2017-08-07 14-59-21.png)
 
@@ -43,11 +43,11 @@ I tried to see if it has a robots.txt in the root of the web server and it showe
 
 There is a folder called secret and showed me this.
 
-![](/assets/Screenshot from 2017-08-07 15-03-20.png)Continuing my enumeration, I saw that the ftp server allows anonymous login, so I fired up my Filezilla and browse the ftp server. There is a file there named lol.pcap. Pcap is a file that contains the captured network traffics from network analyzers such as Wireshark and some other tools. So to open the pcap file, I launched wireshark and read the pcap file. It showed me this.
+![](/assets/Screenshot from 2017-08-07 15-03-20.png)Continuing my enumeration, I saw that the FTP server allows anonymous login, so I fired up my Filezilla and browse the FTP server. There is a file there named lol.pcap. Pcap is a file that contains the captured network traffics from network analyzers such as Wireshark and some other tools. So to open the pcap file, I launched Wireshark and read the pcap file. It showed me this.
 
 ![](/assets/Screenshot from 2017-08-03 21-37-00.png)
 
-I noticed the "sup3rs3cr3tdirlol" and tried to open and voila
+I noticed the "sup3rs3cr3tdirlol" and tried to open it and voila.
 
 ![](/assets/Screenshot from 2017-08-07 15-13-36.png)
 
@@ -58,7 +58,7 @@ kaipowered@debian:~/Documents/Vulnhub/tr0ll$ file roflmao
 roflmao: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=5e14420eaa59e599c2f508490483d959f3d2cf4f, not stripped
 ```
 
-So the first thing that I did was to run the gdb then run the executable file.
+So the next thing that I did was to run the gdb then run the executable file.
 
 ```
 GNU gdb (Debian 7.12-6) 7.12.0.20161007-git
@@ -79,11 +79,10 @@ Reading symbols from roflmao...(no debugging symbols found)...done.
 (gdb) run
 Starting program: /home/kaipowered/Documents/Vulnhub/tr0ll/roflmao 
 Find address 0x0856BF to proceed[Inferior 1 (process 10058) exited with code 040]
-(gdb) 
-
+(gdb)
 ```
 
-The output showed this
+The output showed me this
 
 ```
 Find address 0x0856BF to proceed[Inferior 1 (process 10058) exited with code 040]
@@ -93,9 +92,9 @@ I tried to find the said address but I wasn't able to find it in the memory, so 
 
 ![](/assets/Screenshot from 2017-08-07 15-24-34.png)I downloaded the files from the directories and it appears that the contents of the files were usernames and passwords.
 
-There was only service that I haven't checked, and that was the ssh.
+There was only one service that I haven't checked, and that was the ssh.
 
-The next thing that I did was to brute force the ssh service with the given usernames and passwords. 
+The next thing that I did was to brute force the ssh service with the given usernames and passwords.
 
 ```
 hydra -L which_one_lol.txt -P Pass.txt 192.168.8.102
@@ -140,7 +139,7 @@ applicable law.
 
 Last login: Sun Aug  6 23:35:25 2017 from 192.168.8.2
 Could not chdir to home directory /home/overflow: No such file or directory
-$ 
+$
 ```
 
 The shell timeouts after a few minutes so the first thing that I did was to check the version of the kernel and it appears that the version of the kernel is GNU/Linux 3.13.0-32-generic i686
@@ -149,7 +148,5 @@ Next thing that I did was to search the exploit-db for the available privilege e
 
 This is the exploit that I used to gain root on the vulnerable machine:
 
-https://www.exploit-db.com/exploits/37292/
-
-
+[https://www.exploit-db.com/exploits/37292/](https://www.exploit-db.com/exploits/37292/)
 
