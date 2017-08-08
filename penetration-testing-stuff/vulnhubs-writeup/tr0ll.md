@@ -51,14 +51,14 @@ I noticed the "sup3rs3cr3tdirlol" and tried to open it and voila.
 
 ![](/assets/Screenshot from 2017-08-07 15-13-36.png)
 
-I downloaded the file named roflmao then run the file command to determine the filetype of the downloaded file. It shows that it is a ELF 32-bit LSB executable.
+I downloaded the file named roflmao then run the file command to determine the filetype of the downloaded file. It shows that it is an ELF 32-bit LSB executable.
 
 ```
 kaipowered@debian:~/Documents/Vulnhub/tr0ll$ file roflmao 
 roflmao: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=5e14420eaa59e599c2f508490483d959f3d2cf4f, not stripped
 ```
 
-So the next thing that I did was to run the gdb then run the executable file.
+So the next thing I did was to run the gdb then run the executable file.
 
 ```
 GNU gdb (Debian 7.12-6) 7.12.0.20161007-git
@@ -88,13 +88,13 @@ The output showed me this
 Find address 0x0856BF to proceed[Inferior 1 (process 10058) exited with code 040]
 ```
 
-I tried to find the said address but I wasn't able to find it in the memory, so I tried opening it on the web browser and it shows that it is a directory on the web server.
+I tried to find the said address but I wasn't able to find it in the memory, so I tried opening it on the web browser and it appears that it is a directory on the web server.
 
 ![](/assets/Screenshot from 2017-08-07 15-24-34.png)I downloaded the files from the directories and it appears that the contents of the files were usernames and passwords.
 
 There was only one service that I haven't checked, and that was the ssh.
 
-The next thing that I did was to brute force the ssh service with the given usernames and passwords.
+The next thing I did was to brute force the ssh service with the given usernames and passwords.
 
 ```
 hydra -L which_one_lol.txt -P Pass.txt 192.168.8.102
@@ -144,7 +144,7 @@ $
 
 The shell timeouts after a few minutes so the first thing that I did was to check the version of the kernel and it appears that the version of the kernel is GNU/Linux 3.13.0-32-generic i686
 
-Next thing that I did was to search the exploit-db for the available privilege escalation exploits of the kernel version.
+Next thing I did was to search the exploit-db for the available privilege escalation exploits of the kernel version.
 
 This is the exploit that I used to gain root on the vulnerable machine:
 
