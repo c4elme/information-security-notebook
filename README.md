@@ -1,3 +1,5 @@
+# Hello Klyde the meat pistolero.
+
 # Introduction
 
 This notebook contains all the topics, write-ups, commands, techniques, cheat sheets and things that I used during learning some new and serious topics about cyber security. This also serves as my reviewer since I can't contain all the things that I read and learned from the Internet.
