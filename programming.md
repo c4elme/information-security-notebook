@@ -5,7 +5,7 @@ This subject matter contains the explanation of some useful code snippets and ex
 Programming Languages included:
 
 * Ruby
-* ...
+* Python
 
 
 

@@ -5,6 +5,7 @@
   * [The OSI Model and TCP/IP Model](networking-stuff/the-osi-model-and-tcpip-model.md)
 * [Programming](programming.md)
   * [Ruby](programming-stuff/ruby.md)
+  * [Python](programming-stuff/python.md)
 * [Penetration Testing](penetration-testing.md)
   * [Hack The Box Writeups](penetration-testing-stuff/hack-the-box-writeups.md)
     * [Legacy](penetration-testing-stuff/hack-the-box-writeups/legacy.md)
