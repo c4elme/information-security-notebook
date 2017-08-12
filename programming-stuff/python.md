@@ -73,7 +73,7 @@ for x in range(3, 6):
 # Prints out 3,5,7
 for x in range(3, 8, 2):
     print(x)
-    
+
 #while loops
 # Prints out 0,1,2,3,4
 
