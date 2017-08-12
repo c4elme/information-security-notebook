@@ -13,8 +13,6 @@ def function_name(parameter):
 print(function_name(argument))
 ```
 
-
-
 Pulling in just a single function from a module is called a function import, and it's done with the from keyword:
 
 ```
@@ -25,8 +23,6 @@ from module import function
 # Import *everything* from the math module on line 3!
 from math import *
 ```
-
-
 
 ```
 import math # Imports the math module
@@ -77,6 +73,14 @@ for x in range(3, 6):
 # Prints out 3,5,7
 for x in range(3, 8, 2):
     print(x)
+    
+#while loops
+# Prints out 0,1,2,3,4
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1  # This is the same as count = count + 1
 ```
 
 
