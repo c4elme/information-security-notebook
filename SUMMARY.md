@@ -13,6 +13,7 @@
     * [Ippsec Tenten](penetration-testing-stuff/hack-the-box-writeups/ippsec-tenten.md)
   * [Vulnhubs writeup](penetration-testing-stuff/vulnhubs-writeup.md)
     * [tr0ll](penetration-testing-stuff/vulnhubs-writeup/tr0ll.md)
+    * [Kioptrix Level 1](penetration-testing-stuff/vulnhubs-writeup/kioptrix-level-1.md)
   * [Reverse Shells Overview](penetration-testing-stuff/reverse-shells-overview.md)
   * [Information Gathering and Vulnerability Assessment](penetration-testing-stuff/information-gathering-and-vulnerability-assessment.md)
   * [Helpful Commands](penetration-testing-stuff/helpful-commands.md)
