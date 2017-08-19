@@ -15,7 +15,7 @@ There are some topics that I haven't included yet and I am still researching the
 
 * Buffer Overflows and Exploit Development
 * Reverse Engineering and Malware Analysis
-* Cryptography \(uhmm\)
+* Cryptography
 * and etc.
 
 
