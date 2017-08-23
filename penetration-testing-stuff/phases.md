@@ -16,12 +16,14 @@
 * check for the versions of the available services that are present on the target's local machine
 * you can use automated scripts to automate the enumeration process
 * look out for the low hanging fruits, for example, there may be a hidden file, weak passwords, default config files and others
+
 * **Some tools for enumerating the target:**
   * **Linux Privilege Escalation Enumeration Scripts**
     * unix-privesc-check - [http://pentestmonkey.net/tools/audit/unix-privesc-check](http://pentestmonkey.net/tools/audit/unix-privesc-check)
     * linuxprivchecker.py - [https://gist.github.com/sh1n0b1/e2e1a5f63fbec3706123](https://gist.github.com/sh1n0b1/e2e1a5f63fbec3706123)
     * linenum - [https://www.rebootuser.com/?p=1758](https://www.rebootuser.com/?p=1758)
     * linux-local-enumeration-script.sh - [https://highon.coffee/blog/linux-local-enumeration-script/](https://highon.coffee/blog/linux-local-enumeration-script/)
+    * Basic Linux Priv Escalation\(blog post\) - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 ## Exploitation
 
