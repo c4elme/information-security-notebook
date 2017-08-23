@@ -38,7 +38,9 @@
 
 * if you have gained access to the system, you may install a backdoor in the case of the user reboots the target machine
 * since you only have an initial access to the system \(low privileged access\), enumerate for the available programs, weak credentials, default passwords, and others that may be used to escalate your privileges
-* * ## Covering Tracks
+
+## Covering Tracks
+
 * remove the backdoors and other files that you used to gain access to the target
 
 * delete or modify the log files
