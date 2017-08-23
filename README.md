@@ -7,7 +7,7 @@ This notebook is categorized based on the different subject matters in Informati
 * Networking
 * Programming
 * Penetration Testing
-* Operating Systems
+
 * Security
 * Web Development
 
