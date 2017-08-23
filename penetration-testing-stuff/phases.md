@@ -18,12 +18,13 @@
 * look out for the low hanging fruits, for example, there may be a hidden file, weak passwords, default config files and others
 
 * **Some tools for enumerating the target:**
+
   * **Linux Privilege Escalation Enumeration Scripts**
     * unix-privesc-check - [http://pentestmonkey.net/tools/audit/unix-privesc-check](http://pentestmonkey.net/tools/audit/unix-privesc-check)
     * linuxprivchecker.py - [https://gist.github.com/sh1n0b1/e2e1a5f63fbec3706123](https://gist.github.com/sh1n0b1/e2e1a5f63fbec3706123)
     * linenum - [https://www.rebootuser.com/?p=1758](https://www.rebootuser.com/?p=1758)
     * linux-local-enumeration-script.sh - [https://highon.coffee/blog/linux-local-enumeration-script/](https://highon.coffee/blog/linux-local-enumeration-script/)
-    * Basic Linux Priv Escalation\(blog post\) - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+    * Basic Linux Priv Escalation\(blog post\) - [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 
 ## Exploitation
 
@@ -37,7 +38,7 @@
 
 * if you have gained access to the system, you may install a backdoor in the case of the user reboots the target machine
 * since you only have an initial access to the system \(low privileged access\), enumerate for the available programs, weak credentials, default passwords, and others that may be used to escalate your privileges
-* ## Covering Tracks
+* * ## Covering Tracks
 * remove the backdoors and other files that you used to gain access to the target
 
 * delete or modify the log files
