@@ -1,4 +1,4 @@
-# Notes and Techniques \(High-level overview\)
+# Notes and Techniques
 
 ## Reconnaissance
 
@@ -31,8 +31,6 @@
 
 * remove the backdoors and other files that you used to gain access to the target
 * delete or modify the log files
-
-
 
 
 
